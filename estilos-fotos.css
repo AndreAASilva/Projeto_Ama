@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+
+    font-family: Arial, Helvetica, sans-serif;
+    font-size:1.4rem;
+}
+
+
+.titulo-fotos-abrigo{
+    text-align: center;
+    padding: 30px;
+}
+
+.corpo-imagens{
+    
+    position: relative;
+    margin-top: 120px;
+
+}
+
+/*----------------------------*\
+        CORPO-FOTOS-ABRIGO
+\*----------------------------*/
+
+.bloco-foto-geral{
+    display: inline-block;
+    
+}
+
+.bloco-foto-abrigo01{
+    position: relative;
+    background-image: url("imagem/abrigo_01.jpeg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 200px;
+    width: 400px;
+    border: 1px solid rgba(138, 138, 138, 0.288);
+    border-radius: 10px;
+    margin: 10px;
+    
+}
+
+.foto-abrigo01{
+    position: relative;
+    
+    border-radius: 2%;
+    margin: 0;
+    height: 200px;
+    margin-top: 500px;
+}
+
+.bloco-foto-abrigo02{
+    position: relative;
+    background-image: url("imagem/abrigo_02.jpeg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 200px;
+    width: 400px;
+    border: 1px solid rgba(138, 138, 138, 0.288);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.foto-abrigo02{
+    position: relative;
+    background-position: left;
+    border-radius: 2%;
+    margin: 0;
+    height: 200px;
+}
+
+.bloco-foto-abrigo03{
+    position: relative;
+    background-image: url("imagem/abrigo_03.jpeg");
+    background-repeat: no-repeat;
+    background-size: 400px;
+    height: 200px;
+    width: 400px;
+    border: 1px solid rgba(138, 138, 138, 0.288);
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.foto-abrigo03{
+    position: relative;
+    background-position: left;
+    border-radius: 2%;
+    margin: 0;
+    height: 200px;
+}
+
