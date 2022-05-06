@@ -58,6 +58,8 @@ header{
 \*------------------*/
 
 @media(max-width: 991px){
+
+        
     .menu{
         position: fixed;
         top:0;
@@ -130,6 +132,8 @@ header{
     a:hover{
         color: #CE9CFD;
     }
+
+    
 }
 
 
@@ -169,7 +173,7 @@ header{
  CORPO-BANNER-DOCAO-HOME-TELA-GRANDE
 \*---------------------------------*/
 
-@media(min-width:991px){
+@media(min-width:992px){
 
     .banner-ama{
         margin-top: 103px;
@@ -235,7 +239,7 @@ header{
  CORPO-BANNER-DOCAO-HOME-TELA-PEQUENA
 \*---------------------------------*/
 
-@media(max-width:992px){
+@media(max-width:991px){
 
     .banner-ama{
         margin-top: 103px;
@@ -251,6 +255,7 @@ header{
         left: 0;
         right: 0;
         padding: 0;
+        width: 100%;
         
     }
 
