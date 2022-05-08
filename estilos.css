@@ -177,59 +177,68 @@ header{
 
     .banner-ama{
         margin-top: 103px;
-        object-fit: cover;
-        height: 70vh;
-        width: 100vw;
+        
     }
 
     .banner-doacao-amora{
         position: relative;
-        top: -26px;
+        top: -6px;
         left: 0;
         right: 0;
         width: 100%;
         padding: 0;
-        background-color: aqua;
+        background-color: white;
     }
 
     .banner-doacao{
         position: relative;
-        width: 1300px;
-        height: 600px;
+        width: 90%;
+        height: auto;
         margin: auto;
         background-color: white;
-        
-
     }
-    .banner-vakinha--bloco{
+
+    .doacao-vakinha-padrinho{
+        position: relative;
+        Top: 10px;
+        Bottom: 10px; 
+        Left: 42%; 
+        Right:0;
+        padding: 1%;
+
+        height: auto;
+        /*margin-top: 2%;
+        margin-left: 40%;
+        */
+        box-shadow: 2px 1px 5px rgb(145, 145, 145);
+        
+    }
+
+    .banner-vakinha{
+        padding: 0;
         display: inline-block;
-        margin-left: 20px;
-        margin-top: 20px;
+        margin: 1%;
+       
+    }
 
+    .banner-vakinha{
+        padding: 0;
+        display: inline-block;
+        margin: 1%;
         
     }
 
-    .banner-vakinha01{
-        box-shadow: 2px 1px 5px rgb(145, 145, 145);
+    .banner-vakinha{
         padding: 0;
-        margin-left: 50px;
-    }
-
-    .banner-vakinha02{
-        box-shadow: 2px 1px 5px rgb(145, 145, 145);
-        padding: 0;
+        display: inline-block;
+        margin: 1%;
         
     }
 
-    .banner-vakinha03{
-        box-shadow: 2px 1px 5px rgb(145, 145, 145);
+    .banner-vakinha{
         padding: 0;
-        
-    }
-
-    .banner-vakinha04{
-        box-shadow: 2px 1px 5px rgb(145, 145, 145);
-        padding: 0;
+        display: inline-block;
+        margin: 1%;
         
     }
 
@@ -238,7 +247,7 @@ header{
 /*---------------------------------*\
  CORPO-BANNER-DOCAO-HOME-TELA-PEQUENA
 \*---------------------------------*/
-
+/*
 @media(max-width:991px){
 
     .banner-ama{
@@ -322,6 +331,7 @@ header{
     }
 
 }
+*/
 
 
 /*-------------*\
@@ -343,31 +353,34 @@ RODAPE-TELA-GRANDE
     .coluna1-rodape{
         position: relative;
         float: left;
+        
         width: 33%;
                
         height: 120px;
 
-        background-color: #f6eeff;
+        background-color: #f9fd00;
     }
 
     .coluna2-rodape{
         position: relative;
         float:left;
+        
         width: 34%;
 
         height: 120px;
 
-        background-color: #f6eeff;
+        background-color: #f9fd00;
     }
 
     .coluna3-rodape{
         position: relative;
         float: right;
+        
         width: 33%;
 
         height: 120px;
 
-        background-color: #f6eeff;
+        background-color: #f9fd00;
     }
 
 
@@ -425,7 +438,7 @@ RODAPE-TELA-GRANDE
         text-align: center;
         font-size:0.8rem;
     
-        background-color: #f6eeff;
+        background-color: #daff08;
     
     }
 
