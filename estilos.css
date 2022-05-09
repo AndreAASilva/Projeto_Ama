@@ -1,9 +1,14 @@
 * {
     box-sizing: border-box;
+    
 }
+
 
 body{
     margin: 0;
+
+    width: 100%;
+    height: 100%;
     
 
     font-family: Arial, Helvetica, sans-serif;
@@ -14,7 +19,12 @@ body{
     CABECALHO
 \*-------------*/
 header{
+    
+    width: 100%;
     height: 104px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     border-bottom: 1px solid #ccc;
 }
 
@@ -45,6 +55,7 @@ header{
 \*------------------*/
 .menu{
     margin:0;
+    
 
     font-size: 1.4rem;
 
@@ -178,68 +189,64 @@ header{
     .banner-ama{
         margin-top: 103px;
         
+        
+        
     }
 
+    
     .banner-doacao-amora{
         position: relative;
         top: -6px;
         left: 0;
         right: 0;
         width: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         padding: 0;
         background-color: white;
     }
 
     .banner-doacao{
         position: relative;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         width: 90%;
         height: auto;
-        margin: auto;
-        background-color: white;
+        background-color: blue;
     }
 
-    .doacao-vakinha-padrinho{
+    /*.banner-vakinha--bloco{
+        
         position: relative;
         Top: 10px;
         Bottom: 10px; 
         Left: 42%; 
         Right:0;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
         padding: 1%;
-
+        
         height: auto;
-        /*margin-top: 2%;
-        margin-left: 40%;
-        */
+        
+        
+        
+    }*/
+
+    
+    .banner-vakinha{
+        margin: 15px;
+
+        padding: 1px;
+        display: inline-block;
+        
+        
+
         box-shadow: 2px 1px 5px rgb(145, 145, 145);
-        
-    }
-
-    .banner-vakinha{
-        padding: 0;
-        display: inline-block;
-        margin: 1%;
        
-    }
-
-    .banner-vakinha{
-        padding: 0;
-        display: inline-block;
-        margin: 1%;
-        
-    }
-
-    .banner-vakinha{
-        padding: 0;
-        display: inline-block;
-        margin: 1%;
-        
-    }
-
-    .banner-vakinha{
-        padding: 0;
-        display: inline-block;
-        margin: 1%;
-        
     }
 
 }
