@@ -189,8 +189,6 @@ header{
     .banner-ama{
         margin-top: 103px;
         
-        
-        
     }
 
     
@@ -215,46 +213,34 @@ header{
         width: 90%;
         height: auto;
         background-color: white;
+        transition: 0.8s;
     }
 
-    /*.banner-vakinha--bloco{
-        
-        position: relative;
-        Top: 10px;
-        Bottom: 10px; 
-        Left: 42%; 
-        Right:0;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        padding: 1%;
-        
-        height: auto;
-        
-        
-        
-    }*/
-
-    
-    .banner-vakinha{
+   .banner-vakinha{
         margin: 15px;
 
         padding: 1px;
         display: inline-block;
+          
+        box-shadow: 2px 1px 5px rgb(145, 145, 145);
         
+        
+    }
+
+    .doacao-vakinha-padrinho:hover{
+        transform: scale(1.1);
+        z-index: 2;
+        cursor:pointer;
         
 
-        box-shadow: 2px 1px 5px rgb(145, 145, 145);
-       
     }
 
 }
-
+/*Concluido ate aqui*/
 /*---------------------------------*\
  CORPO-BANNER-DOCAO-HOME-TELA-PEQUENA
 \*---------------------------------*/
-/*
+
 @media(max-width:991px){
 
     .banner-ama{
@@ -286,7 +272,7 @@ header{
     }
     
 
-    .banner-vakinha01{
+    .banner-vakinha{
         position: relative;
         Top: 0;
         Bottom: 0;
@@ -301,44 +287,11 @@ header{
         
     }
 
-    .banner-vakinha02{
-        position: relative;
-        Top: 20px;
-        Bottom: 0;
-        Left:   0px;
-        Right: 0;
-        
-        padding: 0;
-        
-        width: 100%;
-    }
-
-    .banner-vakinha03{
-        position: relative;
-        Top: 35px;
-        Bottom: 0;
-        Left: 50px;
-        Right: 0;
-        
-        padding: 0;
-        
-        width: 100%;
-    }
-
-    .banner-vakinha04{
-        position: relative;
-        Top: 50px;
-        Bottom: 0;
-        Left: 50px;
-        Right: 0;
-        
-        padding: 0;
-        
-        width: 100%;
-    }
+    
+    
 
 }
-*/
+
 
 
 /*-------------*\
